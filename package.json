@@ -1,0 +1,22 @@
+{
+  "name": "angel_test",
+  "version": "1.0.0",
+  "description": "The goal of this exercise is to create a test script that controls a Browser to go to a Google search page, perform a search, and analyze the results. The test consists of two steps:  - Browser automation and  - Test cases #### Source-code management and hosting Git will be used to manage my code using iterative commits   *Note: It is compulsory that each step is a new branch*",
+  "main": "index.js",
+  "scripts": {
+    "test": "angel"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angelohikere25/angel_test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/angelohikere25/angel_test/issues"
+  },
+  "homepage": "https://github.com/angelohikere25/angel_test#readme",
+  "devDependencies": {
+    "nightwatch": "^0.9.21"
+  }
+}
