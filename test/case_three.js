@@ -17,5 +17,6 @@ module.exports = {
           browser.assert.attributeContains("div.g:nth-child("+ i +") h3.r a",'href', "tekno")
         }
       }) 
+      .end()
   }
 }
