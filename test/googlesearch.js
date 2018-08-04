@@ -13,7 +13,8 @@ module.exports = {
       },['x'],function(res){
         // check that the number of result returned is equal to 10
         browser.assert.equal(res.value,10)
-      }) 
+      })
+      .end() 
   }
 }
 
