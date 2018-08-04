@@ -1,3 +1,6 @@
+/**
+ This custom commands allows to perform all the various math operations and check that the results are correct in each case
+ */
 exports.command = function(first_number, operator, second_number, callback) {
   var self = this;
 
